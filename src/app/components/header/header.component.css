@@ -22,13 +22,13 @@ div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     height: 100%;
 }
 
 nav:first-child {
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: 600;
     color: white;
     text-decoration: none;
@@ -51,7 +51,7 @@ nav:first-child:hover {
 .nav-links a {
     color: #cccccc;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 500;
     padding: 8px 12px;
     border-radius: 8px;
