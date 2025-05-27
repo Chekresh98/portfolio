@@ -27,6 +27,12 @@ export class ContactComponent {
       .subscribe({
         next: (response: any) => {
           console.log('Form submitted successfully', response);
+          this.formData = {
+            name: '',
+            email: '',
+            subject: '',
+            message: ''
+          }
         },
         error: (error: any) => {
           console.error('Error submitting form:', error.error);
